@@ -2,4 +2,46 @@ Key features of the project is shown here
 * Mini Library System
 * Food ordering at canteen system
 * Employee management
-* 
+* Ward booking
+* Ambulance Management
+* Pharmacy accounts
+
+*Mini Library System:
+  Sign in/Log in
+  Dues
+  Limitation of number of books a person can have
+  
+*Food ordering system
+  Login with existing hospital id
+  menu and time
+  Billing
+  
+ *Employee Management
+  Worker wages
+  bonus if he works extra time (night shift)
+  
+  
+ *Ward Booking
+  Basic fare
+  Types of wards
+  
+ *Ambulance Booking
+  Timestamp Availability 
+  Distance
+ 
+ *Parking System
+  Timestamp fare
+  availability
+ 
+ *Pharmacy Management
+  Medical bills
+  Expiry dates
+  
+  
+  
+  
+ 
+ 
+  
+  
+
