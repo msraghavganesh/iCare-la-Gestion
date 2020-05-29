@@ -5,6 +5,7 @@ Key features of the project is shown here
 * Ward booking
 * Ambulance Management
 * Pharmacy accounts
+* OPD
 
 *Mini Library System:
   Sign in/Log in
@@ -37,6 +38,10 @@ Key features of the project is shown here
   Medical bills
   Expiry dates
   
+ *General Management:
+    * Ward Booking
+    * OPD Appointments
+    * Emergency Services
   
   
   
