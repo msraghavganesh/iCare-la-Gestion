@@ -1,2 +1,5 @@
 Key features of the project is shown here
-hello
+* Mini Library System
+* Food ordering at canteen system
+* Employee management
+* 
