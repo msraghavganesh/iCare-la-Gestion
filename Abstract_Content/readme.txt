@@ -1,1 +1,1 @@
-Abstract contents:
+Abstract contents
