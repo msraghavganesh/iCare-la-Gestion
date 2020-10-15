@@ -115,29 +115,4 @@ int main()
 //Structure Defination
 struct dist
 {
-    float feet;
-    float inch;
-};
-
-//Main Function
-int main()
-{
-    //Structure objects
-    struct dist d1;
-
-    //inputting values and storing them in structure variables
-    printf("enter first distance in feet and inches\n");
-    scanf("%f%f", &d1.feet, &d1.inch);
-
-    //Function call
-    adddistance(d1);
-    return 0;
-}
-void adddistance(struct dist d1)
-{
-    //Converts inch to feet and vice versa and then adds
-    struct dist d3;
-    d3.feet = d1.feet + ((d1.inch) * 0.0833);
-    d3.inch = ((d1.feet) * 12) + d1.inch;
-    printf("total distance-in feet=%.3f\n in inches=%0.3f\n", d3.feet, d3.inch);
-}
+ 
