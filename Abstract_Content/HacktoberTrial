@@ -107,12 +107,4 @@ int main()
 }
 /* Done by Raghav Ganesh :)
  * 191ME241
- * P3 - Program to add distance in feet and inches
- */ 
-
-#include <stdio.h>
-
-//Structure Defination
-struct dist
-{
- 
+ * P3 - 
