@@ -1,0 +1,56 @@
+/* Done by Raghav Ganesh :)
+ * 191ME241
+ * P1 - Program to read various items ,calculate amounts and shared amount with friends
+ */ 
+
+#include <stdio.h>
+
+//Structure Defination
+struct item
+{
+    char name[20];
+    float price, amt;
+    int qty;
+} obj[100];
+
+//Main Function
+int main()
+{
+    //Variable declaration and initialization
+    int i = 0, temp;
+    float total = 0;
+    while (1)
+    {
+        //inputting values and storing them in structure variables
+        printf("Enter item details[%d]:\nItem? ", i + 1);
+        scanf("%s", obj[i].name);
+        printf("Price? ");
+        scanf("%f", &obj[i].price);
+        printf("Quantity? ");
+        scanf("%d", &obj[i].qty);
+        printf("Want to add more items(press 1 for Yes; 0 for NO): ");
+        scanf("%d", &temp);
+        obj[i].amt = obj[i].price * obj[i].qty;
+        total += obj[i].amt;
+        i++;
+        if (!temp)
+            break;
+    }
+    
+    //Printing output based on question
+    printf("All details are:\n");
+    for (int j = 0; j < i; j++)
+        printf("%s %.2f %d %.2f\n", obj[j].name, obj[j].price, obj[j].qty, obj[j].amt);
+
+    printf("####Total Expense: %.2f", total);
+    printf("\nWant to divide in friends(press 1 for yes): ");
+    scanf("%d", &temp);
+    if (temp)
+    {
+        printf("How many friends? ");
+        scanf("%d", &temp);
+        printf("Each friend will have to pay: %.2f", total / temp);
+    }
+    printf("\n\n~Thanks for using me... Enjoy your party!!!~\n");
+    return 0;
+}
